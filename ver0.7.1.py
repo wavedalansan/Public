@@ -11,7 +11,7 @@ def login(*args):
     global try_num,user_name
     user_name = login_username.get()
     user_password = login_password.get()
-    if user_name == 'zengz' and user_password == 'zh090807' or user_name == 'admin' and user_password == '123456':#用户名的正确用户名和密码
+    if user_name == 'admin' and user_password == '123456':#用户名的正确用户名和密码
         tkinter.messagebox.showinfo('Info','登录成功')
         admin_login.destroy()
         admin_main()
